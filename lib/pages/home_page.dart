@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                       description: student.number,
                       image: student.image,
                       color: student.gender == 'female'
-                          ? Colors.red[300]
+                          ? Colors.orange[300]
                           : Colors.blue[300],
                     ),
                   ],
