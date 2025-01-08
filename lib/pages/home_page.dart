@@ -41,9 +41,9 @@ class _HomePageState extends State<HomePage> {
                       title: student.name,
                       description: student.number,
                       image: student.image,
-                      color: student.gender == 'male'
-                          ? Colors.red[200]
-                          : Colors.blue[200],
+                      color: student.gender == 'female'
+                          ? Colors.red[300]
+                          : Colors.blue[300],
                     ),
                   ],
                 ));
